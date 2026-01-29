@@ -12,7 +12,7 @@
 import os
 
 # Bot Token
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8346695576:AAErSTkMH1Jcb-yK0nE2gKCuSorGg0OhQMI")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8031981205:AAGz3oAzc7hvRHViOirPutAJeiP3t4lvu40")
 
 # Your API ID & Hash
 API_ID = int(os.environ.get("API_ID", "29777466"))
@@ -22,8 +22,8 @@ API_HASH = os.environ.get("API_HASH", "a04b3df726520026f207079aec2f9879")
 ADMINS = int(os.environ.get("ADMINS", "8399557684"))
 
 # Your Mongodb Database Url
-DB_URI = os.environ.get("DB_URI", "")
-DB_NAME = os.environ.get("DB_NAME", "SaveRestricted")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://girnarimaharaj01_db_user:KsxBY4eoUBwRKXXw@cluster0.6firafk.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "girnarimaharaj01_db_user")
 
 # Log Channel to Track New Users 
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003164986113"))
@@ -32,7 +32,7 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003164986113"))
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
 
 # Keep-Alive URL
-KEEP_ALIVE_URL = os.environ.get("KEEP_ALIVE_URL", "")
+KEEP_ALIVE_URL = os.environ.get("KEEP_ALIVE_URL", "https://t.me/+Swsed-KYVMJjYzdl")
 
 # Start pic on /start 
 START_PIC = os.environ.get("START_PIC", "https://files.catbox.moe/krxuel.jpg")
